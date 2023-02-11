@@ -26,7 +26,7 @@ public class PriceControllerIntegrationTest {
     @Autowired
     private TestRestTemplate restTemplate;
 
-    private final String uri = "http://localhost:%s/v1/price?brandId=%s&productId=%s&purchaseDate=%s";
+    private final String uri = "http://localhost:%s/v1/prices?brandId=%s&productId=%s&purchaseDate=%s";
     private final Long brandId = 1L;
     private final Long productId = 35455L;
 

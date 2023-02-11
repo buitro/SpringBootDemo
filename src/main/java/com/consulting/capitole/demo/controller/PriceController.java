@@ -18,7 +18,7 @@ public class PriceController {
 
     private PriceService priceService;
 
-    @GetMapping(path = "/v1/price")
+    @GetMapping(path = "/v1/prices")
     public ResponseEntity<PriceDto> getPrice(
             @RequestParam Long brandId, @RequestParam Long productId, @RequestParam LocalDateTime purchaseDate) {
         PriceDto price = priceService.getPrice(brandId, productId, purchaseDate);
