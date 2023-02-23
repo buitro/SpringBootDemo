@@ -24,5 +24,5 @@ this approach, only the BD takes the hard work of executing the query and the co
 Tests /v1/prices endpoint with relevant GET requests to validate prices are returned as expected.
 
 ## Swagger UI
-An interface for testing the endpoint is available at /swagger-ui/index.html#/price-controller/getPrice
+An interface for testing the endpoint is available at http://_server_:_port_/swagger-ui/index.html#/price-controller/getPrice
 
